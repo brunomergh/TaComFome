@@ -5,13 +5,13 @@
  */
 package cdp;
 
-import util.AbstractPizzaOption;
+import util.AbsPizzaOption;
 
 /**
  *
  * @author Bruno
  */
-public class Presunto extends AbstractPizzaOption {
+public class Presunto extends AbsPizzaOption {
     
     public Presunto(Pizza pizza){
         super(pizza);

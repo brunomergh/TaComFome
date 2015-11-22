@@ -14,7 +14,7 @@ import cdp.Pizza;
 public class AbstractBuilder implements Builder {
     
     Pizza pizza = new Pizza();
-    protected FabricaAbstrata fabrica;
+    protected FabricaPizzaAbstrata fabrica;
     
     @Override
     public void fazerMassa(){

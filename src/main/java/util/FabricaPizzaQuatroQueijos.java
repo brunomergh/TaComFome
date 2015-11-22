@@ -19,7 +19,7 @@ import cdp.QueijoParmesao;
  *
  * @author Bruno
  */
-public class FabricaPizzaQuatroQueijos implements FabricaAbstrata {
+public class FabricaPizzaQuatroQueijos implements FabricaPizzaAbstrata {
     
     @Override
     public Pizza criarMassa(Pizza pizza){

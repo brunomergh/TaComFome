@@ -17,7 +17,7 @@ import cdp.QueijoMussarela;
  *
  * @author Bruno
  */
-public class FabricaPizzaMussarelaCone implements FabricaAbstrata {
+public class FabricaPizzaMussarelaCone implements FabricaPizzaAbstrata {
     
     @Override
     public Pizza criarMassa(Pizza pizza){

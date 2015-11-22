@@ -15,7 +15,7 @@ import util.FabricaPizza;
 public class Application {
     public static void main(String args[]) throws Exception {
         
-        Pizza pizza = FabricaPizza.criarPizza("Quatro Queijos Tradicional Cone");
+        Pizza pizza = FabricaPizza.criarPizza("Quatro Queijos Cone");
         System.out.println("Valor da pizza :" + pizza.getValor());
         
     }

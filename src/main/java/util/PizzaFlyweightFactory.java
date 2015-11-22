@@ -21,7 +21,7 @@ public class PizzaFlyweightFactory {
         menuPizzas.put("Mussarela Tradicional" , new BuilderPizzaMussarela());
         menuPizzas.put("Mussarela Cone" , new BuilderPizzaConeMussarela());
         menuPizzas.put("Quatro Queijos Tradicional" , new BuilderPizzaQuatroQueijos());
-        menuPizzas.put("Quatro Queijos Tradicional Cone" , new BuilderPizzaConeQuatroQueijos());
+        menuPizzas.put("Quatro Queijos Cone" , new BuilderPizzaConeQuatroQueijos());
     }
     
     public synchronized static PizzaFlyweightFactory getInstance(){

@@ -3,23 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cdp;
+package util;
 
-import util.AbsPizzaOption;
+import cdp.Pizza;
 
 /**
  *
  * @author Bruno
  */
-public class Molho extends AbsPizzaOption {
+public class AbsPizzaOption extends Pizza {
     
-    public Molho(Pizza pizza){
-        super(pizza);
-    }
+    protected Pizza pizzaDecorator;
     
-    @Override
-    public double getValor(){
-        return pizzaDecorator.getValor() + 3.00;
+    public AbsPizzaOption(Pizza pizza){
+        super(pizza.getValor());
+        this.pizzaDecorator = pizza;
     }
     
 }

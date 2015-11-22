@@ -3,20 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cdp;
+package util;
 
-import util.AbsPizzaOption;
+import cdp.Pizza;
 
 /**
  *
  * @author Bruno
  */
-public abstract class Massa extends AbsPizzaOption {
+public interface FabricaPizzaAbstrata {
+       
+    public Pizza criarMassa(Pizza pizza);
+    public Pizza criarRecheio(Pizza pizza);
+    public Pizza criarMolho(Pizza pizza);
     
-    private String massa;
-
-    public Massa(Pizza pizza) {
-        super(pizza);
-    }
     
 }

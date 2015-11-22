@@ -20,7 +20,7 @@ import java.util.ArrayList;
  *
  * @author Bruno
  */
-public class FabricaPizzaQuatroQueijosCone implements FabricaAbstrata {
+public class FabricaPizzaQuatroQueijosCone implements FabricaPizzaAbstrata {
     
     @Override
     public Pizza criarMassa(Pizza pizza){
